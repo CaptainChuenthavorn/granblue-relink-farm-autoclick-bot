@@ -1,0 +1,1 @@
+# granblue-relink-farm-autoclick-bot
