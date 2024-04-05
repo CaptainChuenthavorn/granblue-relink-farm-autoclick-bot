@@ -14,7 +14,7 @@ VK_SHIFT = 0xA0
 
 def main():
     # init window handle
-    window_name = "Granblue Fantasy: Relink"
+    window_name = "Super Mario Emulator - Google Chrome"
     #hwnd = win32gui.FindWindow(None, window_name)
     hwnds = find_all_windows(window_name)
 
