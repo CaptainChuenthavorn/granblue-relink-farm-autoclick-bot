@@ -13,7 +13,8 @@ def main():
     start_time = time.time()
 
     while time.time() - start_time < total_seconds:
-        print('time left',time.time() - start_time )
+        timeleft=total_seconds-(time.time() - start_time)
+        print(f'Time left: {timeleft:.2f}')
         # print('Clicking...')
         pydirectinput.click()
         time.sleep(0.1)
